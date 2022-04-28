@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine' 
-            args '-v /Users/var/jenkins_home/Library/Jenkins/.m2:/root/.m2' 
+            args '-v /Users/conyeje2/Library/Jenkins/.m2:/root/.m2' 
         }
     }
     options {
